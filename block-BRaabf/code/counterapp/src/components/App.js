@@ -21,8 +21,8 @@ class App extends React.Component {
   };
   handleIncrement = () => {
     this.setState({
-      count: +this.state.count + +this.state.steps,
-      max:
+      count:
+        +this.state.count + +this.state.steps &&
         +this.state.count + +this.state.steps > +this.state.max
           ? +this.state.count
           : +this.state.count + +this.state.steps,
