@@ -153,8 +153,11 @@ body {
   margin-top: 2rem;
   padding: 1rem;
 }
+.card img{
+    object-fit: cover;
+}
 
-button {
+.card button {
   background-color: coral;
   outline: none;
   border: none;
@@ -165,4 +168,17 @@ button {
 
 p {
   padding: 1rem 0;
+}
+
+.detail{
+  width: 50%;
+  border: 1px solid black;
+}
+.detail img{
+  width: 100%;
+}
+.cross {
+  width: 20%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
